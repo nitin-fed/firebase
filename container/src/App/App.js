@@ -1,11 +1,14 @@
 /** @format */
 
 import React from "react";
+import { Header } from "./Header";
 
 const App = () => {
   return (
     <div>
-      <header>FeatherGlobe</header>
+      <header>
+        <Header />
+      </header>
       <p>Body</p>
       <footer>Footer</footer>
     </div>
